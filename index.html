@@ -16,16 +16,13 @@
         <!--Left Column-->
         <div class="left-column">
 
-          <svg id="svg_plot" height="500" width="500">
-              <!--Create Axis-->
-              <line class ="line" x1="0" y1="0" x2="0" y2="500"/>
-              <line class ="line" x1="0" y1="500" x2="500" y2="500"/>
-              <!--Create excisiting points-->
-              <circle class="circle" cx="50" cy="100" r="10" onClick="addBorder()"/>
-              <circle class="circle" cx="100" cy="200" r="10" onClick="addBorder()"/>
-              <circle class="circle" cx="300" cy="100" r="10" onClick="addBorder()"/>
-              <circle class="circle" cx="450" cy="450" r="10" onClick="addBorder()"/>
-          </svg>
+          <h2>Scatterplot</h2>
+          <div id="vis1"></div>
+
+          <br>
+
+          <h2>Bar Graph</h2>
+          <div id="vis2"></div>
 
         </div>
         <!--Right Column-->
@@ -61,7 +58,7 @@
               <option value="9">9</option>
           </select>
           <!--Create button-->
-          <button type="button" id="SendPoint" onclick="SendPoint()">Add Point</button>
+          <button type="button" id="SendPoint">Add Point</button>
         </div>
         <!--Call function to display current coordinates-->
         <p id = "print_points"></p>
@@ -75,8 +72,10 @@
     <div>
       <h2 class="centered">Acknowledgements</h2>
       <ul>
-        <li><a href="https://www.w3schools.com/graphics/svg_intro.asp">W3 SVG</a></li>
+        <li><a href="https://ncoughlin.com/posts/d3-scatter-plot-visualization/">D3 Scatter</a></li>
         <li><a href="https://d3-graph-gallery.com/graph/scatter_basic.html">Scatter Basics</a></li>
+        <li><a href="https://www.tutorialsteacher.com/d3js/create-bar-chart-using-d3js">D3 Bar Charts</a></li>
+        
       </ul>
     </div>
 

@@ -22,6 +22,11 @@ body {
     float: right;
   }
 
+.point-border {
+  stroke-width: 3px;
+  stroke: black;
+}
+
 circle {
     fill: blueviolet;
 }
@@ -39,3 +44,13 @@ circle:hover {
 	stroke-width: 3;
 	stroke: red;
 }
+
+.bar {
+	fill: Black;
+}
+
+.bar:hover {
+	fill: red;
+  background-image: none;
+}
+  
